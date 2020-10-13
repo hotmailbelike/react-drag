@@ -1,20 +1,51 @@
+.container {
+	margin: auto;
+	width: 50%;
+	border: 3px solid violet;
+	padding: 10px;
+}
+
 .dragger {
 	height: 50px;
 	width: 100px;
 	border: 2px black solid;
 	background-color: aqua;
-	margin-top: 5px;
+	margin: 5px;
+}
+.dragger2 {
+	height: 100px;
+	width: 50px;
+	border: 2px black solid;
+	background-color: rgb(251, 255, 0);
+	margin: 5px;
+}
+.dragger3 {
+	height: 200px;
+	width: 200px;
+	border: 2px black solid;
+	background-color: rgb(255, 0, 191);
+	margin: 5px;
 }
 
-.dragger:hover {
+.dragger:hover,
+.dragger2:hover,
+.dragger3:hover {
 	cursor: grabbing;
 }
 
 .btn-container {
-	margin-top: 35rem;
+	margin-top: 25rem;
 }
 
 .btn {
 	height: 50px;
 	width: 100px;
+}
+
+.vertical {
+	display: block;
+}
+
+.horizontal {
+	display: inline-flex;
 }
